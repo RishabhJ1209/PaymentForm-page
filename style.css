@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("4482651.jpg") no-repeat  center/cover;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container form {
+    width: 700px;
+    padding: 40px;
+    background: white;
+    border-radius: 10px;
+}
+
+form .row {
+    display: flex;
+    gap: 25px;
+}
+
+.column .title {
+    font-size: 20px;
+    color: black;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.input-box {
+    margin: 15px 0;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+.input-box span {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.column .flex {
+    display: flex;
+    gap: 20px;
+}
+
+.flex, .input-box {
+    margin-top: 5px;
+}
+
+form .submit-btn {
+    width: 100%;
+    padding: 14px;
+    background: #8175d3;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    font-size: 20px;
+    color: white;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+form .submit-btn:hover {
+    background: #6a5acd;
+}
